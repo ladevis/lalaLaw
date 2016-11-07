@@ -1,0 +1,63 @@
+body {
+	margin: 0px;
+}
+
+#mobile {
+	background-color: rgba(191,191,191,.7);
+	width: 375px;
+	height: 667px;
+	display: center center;
+	background-position: 0px 0px !important;
+		margin: 0 auto;
+		margin-top: 30px;
+}
+
+#container {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	font-family: "Raleway" !important;
+	display: center center;
+}
+
+#buttonContainer {
+	margin-top: 70px;
+	height: intrinsic;
+	width: 100%;
+}
+
+.button {
+	border-radius: 10px;
+	background-color: #878787;
+	width: 75%;
+	height: intrinsic;
+	position: auto;
+	display: center;
+	margin: 10px auto;
+	padding: 50px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	text-align: left;
+	color: white;
+	margin-bottom: 70px;
+	column-count: 2;
+	column-gap: 0px;
+}
+
+.button svg {
+	
+}
+
+.button h2 {
+	font-size: 55px;
+	margin-right: 70px;
+	padding-top: 20px;
+}
+
+/* all svg paths*/
+ svg path:hover {
+  fill: rgba(191,191,191,.7);
+}
+
+
+
