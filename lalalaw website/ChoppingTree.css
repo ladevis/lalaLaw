@@ -1,0 +1,173 @@
+body {
+	margin: 0px;
+	font-family: "Raleway";
+}
+
+.mainContainer {
+	width: 375px;
+	height: 667px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+#mapContainer {
+	height: 297px;
+	background-color: grey;
+	width: 375px;
+}
+
+.infoContainer {
+	height: 380px;
+	background: linear-gradient(rgba(191,191,191,.7), rgba(0,0,0,0));
+	padding: 0px;
+	color: rgb(136, 136, 136);
+}
+
+p {
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.titleBox1 {
+	position: absolute;
+	top: 30px;
+	height: 50px;
+	width: 375px;
+	background-color: rgba(191,191,199,.7);
+	padding-top: 10px;
+}
+
+.titleBox1 p {
+	height: 18px;
+	font-family: "Raleway";
+	font-weight: 400;
+	color: white;
+	font-size: 1em;
+	padding: 5px;
+}
+
+.titleBox1 p span {
+	height: 34px !important;
+	font-family: "Raleway";
+	font-weight: 900;
+	color: white;
+	font-size: 1.6em;
+	padding: 5px;
+}
+
+#mapContainer .titleBox2 {
+	position: absolute;
+	top: 277px;
+	height: 50px;
+	width: 375px;
+	background-color: rgba(191,191,199,.7);
+}
+
+.titleBox2 {
+	display: inline-block;
+	padding-top: 5px;
+}
+
+.titleBox2 p {
+	height: 18px;
+	font-family: "Raleway";
+	font-weight: 400;
+	color: white;
+	font-size: 1.2em;
+	padding: 13px;
+	display: inline-block;
+	margin-top: 5px;
+}
+
+.titleTop {
+	margin-top: 5px;
+	padding-top: 5px;
+}
+.titleBox2 span {
+	height: 34px !important;
+	font-family: "Raleway";
+	font-weight: 400;
+	color: white;
+	font-size: 1.4em;
+	padding: 13px;
+	margin-top: 5px;
+}
+
+.titleBox2 img {
+	padding: 5px;
+	padding-left: 10px;
+	display: inline-block;
+	float:right;
+}
+
+.populationboxage {
+    width: 71px;
+    height: 40px;
+}
+
+.populationbox {
+    height: 40px;
+    padding: 0px;
+	margin: 0px;
+}
+
+.status {
+	display: inline-block;
+	width: 375px;
+	height: 50px;
+	background-color: rgba(191,191,191,.5);
+	padding: 0px;
+	margin: 0px;
+}
+
+.status img {
+	float: left;
+	padding: 13px;
+}
+
+.status p {
+	float: right;
+	padding: 13px;
+	padding-left: 10px;
+	font-size: 1.1em;
+	padding-right: 160px;
+	
+}
+
+.benDraw {
+	width: 375px;
+	height: 270px;
+	background-color: rgba(191,191,191,.9);
+	font-size: 1.2em;
+	padding: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-decoration: underline;
+	display: block;
+}
+
+.benDraw p {
+	margin-left: 10px;
+}
+
+.benDraw img {
+	display: block;
+	padding: 12px;
+	padding-bottom: 5px;
+}
+
+.benDrawCom {
+	display: inline-block;
+}
+
+.benDrawCom img {
+	float: left;
+}
+
+.benDrawCom p {
+	float: right;
+	padding: 13px;
+	font-size: 0.9em;
+	padding-bottom: 5px;
+}
